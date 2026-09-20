@@ -1,0 +1,15 @@
+package com.focusforge.websocket;
+
+public enum WsEventType {
+    MEMBER_JOINED,
+    MEMBER_LEFT,
+    MEMBER_STATE_UPDATED,
+    TIMER_UPDATED,
+    PHASE_CHANGED,
+    SPRINT_TARGET_UPDATED,
+    CHECKLIST_UPDATED,
+    CHAT_MESSAGE,
+    ROOM_STATS_UPDATED,
+    ACHIEVEMENT_UNLOCKED,
+    HEARTBEAT
+}
